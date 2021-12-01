@@ -42,6 +42,4 @@ This netted me significant improvement of 2%, which is far more than I acheived 
 
 ## Summary
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-
 The overall performance of this model on this dataset was unimpressive, with a number of variations all ending with lower than 73% accuracy. What is more, each variation ceased to improve performance significantly after 45 epochs or less. An increased number of epochs would likely not lead to improvement of the model. I would suggest a Random Forest Model. There are a lot of variables within the dataset, and Random Forest would use them in a more balanced fashion, I believe. It's a little bit like adding neurons, but without giving too much favor to any one variable.
